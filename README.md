@@ -1,2 +1,2 @@
 # Galeria_imagens
-Galeria de imagens
+Carrossel de imagens de uma loja de pet shop
