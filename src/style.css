@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.fundo{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+}
+
+.slide{
+    opacity: 0;
+    transition: opacity .2s;
+    position: absolute;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.on{
+    opacity: 1;
+}
+
+#setaEsquerdaBotao, #setaDireitaBotao{
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#setaEsquerdaBotao img, #setaDireitaBotao img{
+    width: 100%;
+    height: 100%;
+}
+
+#setaEsquerdaBotao{
+    transform: rotate(180deg);
+}
